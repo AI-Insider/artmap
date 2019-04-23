@@ -1,6 +1,5 @@
 .scrollable{
   overflow-y: scroll;
-
-  height:50rem;
+  height: 550px;
   margin-top: 5px;
 }

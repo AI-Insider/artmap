@@ -6,14 +6,14 @@ const saltRounds = 10;
 const jswebtoken = require("jsonwebtoken");
 const multer = require("multer");
 const path = require("path");
-const secretJwtKey = "token9999";
+const secretJwtKey = "YOUR_SECRET_JWT_KEY";
 const fs = require('fs')
 const knex = require("knex")({
   client:"pg",
   connection:{
     host:"localhost",
     user:"postgres",
-    password:"1234",
+    password:"YOUR_SECRET_DB_PASSWORD",
     database:"postgres"
   },
   useNullAsDefault:true
